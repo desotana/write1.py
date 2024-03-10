@@ -1,4 +1,4 @@
-__all__ = ['write']
+__all__ = ['write1']
 
 import os
 import mkdir
