@@ -4,14 +4,14 @@
 
 ### Installation
 ```bash
-$ [sudo] pip install write
+$ [sudo] pip install write1
 ```
 
 #### Examples
 ```python
->>> import write
+>>> import write1
 
->>> write.write("not-existing-folder/file",'string')
+>>> write1.write("not-existing-folder/file",'string')
 >>> open("not-existing-folder/file").read()
 'string'
 ```
