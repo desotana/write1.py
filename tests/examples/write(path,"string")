@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import write
+import write1
 
 path = "/tmp/filename.txt"
-write.write(path, "string")
+write1.write(path, "string")
 print(open(path).read())
